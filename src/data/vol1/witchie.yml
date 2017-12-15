@@ -1,0 +1,36 @@
+slug: witchie
+title: Witchie
+description: More of the Kiki's Delivery Service over the Wicked variety.
+isSold: true
+inUse:
+  url: http://fizzy.school
+  title: Fizzy School
+
+tags: [ human, body, flying, female, moving ]
+otherTag: moving
+
+mainAsset:
+  imgSrc: witchie/witchie.png
+
+sprite: 1
+spriteRow: 1
+spriteCol: 4
+
+customColors:
+  -
+    title: Witch
+    color: '#333'
+    imgSrc: witchie/composite-witch.png
+  -
+    title: Broom
+    color: '#EA0'
+    imgSrc: witchie/composite-broom.png
+
+variants:
+  -
+    title: One color light background
+    imgSrc: witchie/witchie-one-color-light-bg.png
+  -
+    title: One color moon dark background
+    imgSrc: witchie/witchie-one-color-moon-dark-bg.png
+    isDark: true

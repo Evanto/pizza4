@@ -1,0 +1,20 @@
+slug: t-rex
+title: T-rex
+description: What could strike fear into the heart of any dinosaur more than an adorable t-rex.
+isSold: true
+
+tags: [ animal, body, dinosaur, cute, one-color, standing, bad-ass ]
+otherTag: bad-ass
+
+mainAsset:
+  imgSrc: t-rex/t-rex.png
+
+sprite: 2
+spriteRow: 1
+spriteCol: 1
+
+customColors:
+  -
+    title: Fill
+    color: '#E62'
+    imgSrc: t-rex/t-rex.png

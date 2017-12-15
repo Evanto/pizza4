@@ -1,0 +1,23 @@
+slug: standing-horse
+title: Standing horse
+description: Whoa nelly! This pony is composed of interconnecting lines, but leaves gaps to keep things interesting.
+isSold: true
+inUse:
+  url: http://www.gildhaus.com/
+  title: Guildhaus
+
+tags: [ animal, body, one-color, thick-lines, standing ]
+otherTag: thick-lines
+
+mainAsset:
+  imgSrc: standing-horse/standing-horse.png
+
+sprite: 2
+spriteRow: 3
+spriteCol: 0
+
+customColors:
+  -
+    title: Fill
+    color: '#333'
+    imgSrc: standing-horse/standing-horse.png

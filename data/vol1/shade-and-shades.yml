@@ -1,0 +1,32 @@
+slug: shade-and-shades
+title: Shade & shades
+description: Hat, sunglasses, and all day to chill.
+isSold: true
+inUse:
+  url: http://nt.hn/
+  title: Nathan Heleine
+
+tags: [ thick-lines, head, human ]
+otherTag: thick-lines
+
+
+mainAsset:
+  imgSrc: shade-and-shades/shade-and-shades-one-color.png
+
+sprite: 1
+spriteRow: 3
+spriteCol: 1
+
+customColors:
+  -
+    title: Fill
+    color: '#333'
+    imgSrc: shade-and-shades/shade-and-shades-one-color.png
+
+variants:
+  -
+    title: Gradient
+    imgSrc: shade-and-shades/shade-and-shades.png
+  -
+    title: Solid
+    imgSrc: shade-and-shades/shade-and-shades-solid.png

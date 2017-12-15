@@ -1,0 +1,20 @@
+slug: lil-robo
+title: Lil robo
+description: Kaiju attacking downtown Spokane! Quick, time to form Lil Robo!
+isSold: true
+
+tags: [ object, body, cute, one-color, standing, bad-ass ]
+otherTag: bad-ass
+
+mainAsset:
+  imgSrc: lil-robo/lil-robo.png
+
+sprite: 1
+spriteRow: 0
+spriteCol: 2
+
+customColors:
+  -
+    title: Fill
+    color: '#C4E'
+    imgSrc: lil-robo/lil-robo.png

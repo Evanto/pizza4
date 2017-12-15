@@ -1,0 +1,19 @@
+slug: cat-walk
+title: Cat walk
+description: This kitty is on the prowl. Its pointy paws give it just a bit of edge to make you look twice.
+
+tags: [ animal, cat, body, one-color ]
+otherTag: cat
+
+mainAsset:
+  imgSrc: cat-walk/cat-walk.png
+
+sprite: 2
+spriteRow: 1
+spriteCol: 3
+
+customColors:
+  -
+    title: Fill
+    color: '#F69'
+    imgSrc: cat-walk/cat-walk.png

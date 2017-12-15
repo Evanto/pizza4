@@ -1,0 +1,11 @@
+{
+  "browser": true,
+  "unused": true,
+  "undef": true,
+  "globals": {
+    "LogoPizza": true,
+    "Huebee": false,
+    "matchesSelector": false,
+    "Isotope": false
+  }
+}

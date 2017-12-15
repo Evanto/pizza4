@@ -1,0 +1,32 @@
+slug: bunny-flop
+title: Bunny flop
+description: Wink of the eye, twitch of the ears.
+isSold: true
+
+tags: [ animal, head, multi-color, cute ]
+otherTag: head
+
+mainAsset:
+  imgSrc: bunny-flop/bunny-flop.png
+
+sprite: 1
+spriteRow: 2
+spriteCol: 1
+
+customColors:
+  -
+    title: Fill
+    color: '#F69'
+    imgSrc: bunny-flop/bunny-flop-fill.png
+  -
+    title: Outline
+    color: '#628'
+    imgSrc: bunny-flop/bunny-flop-outline.png
+
+variants:
+  -
+    title: Fill
+    imgSrc: bunny-flop/bunny-flop-fill.png
+  -
+    title: Outline
+    imgSrc: bunny-flop/bunny-flop-outline.png

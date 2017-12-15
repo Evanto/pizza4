@@ -1,0 +1,44 @@
+slug: dog-profile
+title: Dog profile
+description: This stoic pup gazes proudly into the distance over your brand. The simple shapes and clean lines make for a rock-solid emblem that looks great at any size.
+isSold: true
+inUse:
+  url: http://elixircasts.io/
+  title: ElixirCasts
+
+tags: [ animal, circle, canine, multi-color ]
+otherTag: canine
+
+mainAsset:
+  imgSrc: dog-profile/dog-profile.png
+
+sprite: 1
+spriteRow: 0
+spriteCol: 4
+
+variants:
+  -
+    title: One color light background
+    imgSrc: dog-profile/dog-profile-one-color-light-bg.png
+  -
+    title: One color dark background
+    imgSrc: dog-profile/dog-profile-one-color-dark-bg.png
+    isDark: true
+
+customColors:
+  -
+    title: Circle
+    color: '#FFE877'
+    imgSrc: dog-profile/composite-circle.png
+  -
+    title: Outline
+    color: '#2F364A'
+    imgSrc: dog-profile/composite-outline.png
+  -
+    title: Fill 1
+    color: '#FF931E'
+    imgSrc: dog-profile/composite-fill1.png
+  -
+    title: Fill 2
+    color: '#FFF'
+    imgSrc: dog-profile/composite-fill2.png

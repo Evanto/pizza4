@@ -1,0 +1,27 @@
+{
+  "name": "logo.pizza",
+  "description": "Hot & ready logos for sale",
+  "main": "index.js",
+  "authors": [
+    "Metafizzy"
+  ],
+  "license": "BY-CC",
+  "keywords": [
+    "logo",
+    "docs"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "^7.0.0",
+    "isotope": "^3.0.1",
+    "huebee": "^1.0.0"
+  }
+}

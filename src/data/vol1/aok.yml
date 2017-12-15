@@ -1,0 +1,20 @@
+slug: aok
+title: A-OK
+description: That's a spicy meat-a ball.
+isSold: true
+
+tags: [ hand, one-color ]
+otherTag: hand
+
+mainAsset:
+  imgSrc: aok/aok.png
+
+sprite: 2
+spriteRow: 4
+spriteCol: 3
+
+customColors:
+  -
+    title: Fill
+    color: '#E62'
+    imgSrc: aok/aok.png

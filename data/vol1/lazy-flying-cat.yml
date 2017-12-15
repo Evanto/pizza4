@@ -1,0 +1,23 @@
+slug: lazy-flying-cat
+title: Lazy flying cat
+description: If cats could fly you know they'd do it like this.
+isSold: true
+inUse:
+  url: http://www.neuestore.com/
+  title: Neue Store
+
+tags: [ cat, body, one-color, flying ]
+otherTag: flying
+
+mainAsset:
+  imgSrc: lazy-flying-cat/lazy-flying-cat.png
+
+sprite: 2
+spriteRow: 0
+spriteCol: 2
+
+customColors:
+  -
+    title: Fill
+    color: '#EA0'
+    imgSrc: lazy-flying-cat/lazy-flying-cat.png

@@ -1,0 +1,20 @@
+slug: trefoil
+title: Trefoil
+description: A band loops over itself thrice like a Penrose triangle.
+isSold: true
+
+tags: [ abstract, one-color ]
+otherTag: abstract
+
+mainAsset:
+  imgSrc: trefoil/trefoil.png
+
+sprite: 1
+spriteRow: 1
+spriteCol: 2
+
+customColors:
+  -
+    title: Fill
+    color: '#333'
+    imgSrc: trefoil/trefoil.png

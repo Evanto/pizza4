@@ -1,0 +1,19 @@
+slug: penguin
+title: Penguin
+description: A minimal penguin. Or is it a black egg with white yolk? Or is it a hound going "AAAAAAAH?"
+isSold: true
+
+tags: [ animal, body, bird, standing ]
+otherTag: standing
+
+mainAsset:
+  imgSrc: penguin/penguin.png
+
+sprite: 2
+spriteRow: 3
+spriteCol: 3
+
+variants:
+  -
+    title: One color
+    imgSrc: penguin/penguin-one-color.png

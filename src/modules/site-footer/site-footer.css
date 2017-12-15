@@ -1,0 +1,42 @@
+/* site footer
+------------------------- */
+
+.site-footer {
+  margin: 120px 0 40px;
+}
+
+.site-footer__brand {
+  text-align: center;
+}
+
+.site-footer .mfzy-logo,
+.site-footer .mfzy-wordmark {
+  vertical-align: middle;
+}
+
+.site-footer .mfzy-logo {
+  width: 54px;
+  height: 54px;
+}
+
+/* red & white */
+.site-footer .mfzy-wordmark,
+.site-footer .mfzy-logo__body-outline,
+.site-footer .mfzy-logo__cut-ins {
+  stroke: #E62;
+}
+
+.site-footer .mfzy-logo__feature { fill: #E62; }
+.site-footer .mfzy-logo__body-fill { fill: white; }
+.site-footer .mfzy-logo__stripes { display: none; }
+
+/* full cover hover */
+.site-footer a:hover .mfzy-wordmark,
+.site-footer a:hover .mfzy-logo__body-outline,
+.site-footer a:hover .mfzy-logo__cut-ins {
+  stroke: #333;
+}
+
+.site-footer a:hover .mfzy-logo__feature { fill: #333; }
+.site-footer a:hover .mfzy-logo__body-fill { display: none; }
+.site-footer a:hover .mfzy-logo__stripes { display: inline; }

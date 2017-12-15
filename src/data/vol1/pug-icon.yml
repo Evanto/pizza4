@@ -1,0 +1,23 @@
+slug: pug-icon
+title: Pug icon
+description: Can't stay mad at this trouble-maker.
+
+tags: [ animal, canine, dog, head, one-color ]
+otherTag: canine
+isSold: true
+inUse:
+  url: https://pug.sh/
+  title: Pug
+
+mainAsset:
+  imgSrc: pug-icon/pug-icon.png
+
+sprite: 2
+spriteRow: 1
+spriteCol: 0
+
+customColors:
+  -
+    title: Fill
+    color: '#333'
+    imgSrc: pug-icon/pug-icon.png

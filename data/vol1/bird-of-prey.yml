@@ -1,0 +1,28 @@
+slug: bird-of-prey
+title: Bird of prey
+description: Descending from the heavens, it's a hawk or falcon or eagle!
+isSold: true
+
+tags: [ animal, bird, body, one-color, thick-lines, flying ]
+otherTag: bird
+
+mainAsset:
+  imgSrc: bird-of-prey/bird-of-prey.png
+
+sprite: 1
+spriteRow: 2
+spriteCol: 0
+
+variants:
+  -
+    title: American eagle
+    imgSrc: bird-of-prey/bird-of-prey-american-eagle.png
+  -
+    title: Solid
+    imgSrc: bird-of-prey/bird-of-prey-solid.png
+
+customColors:
+  -
+    title: Fill
+    color: '#222'
+    imgSrc: bird-of-prey/bird-of-prey.png

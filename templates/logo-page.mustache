@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+
+  <title>{{title}}{{#unless isSold}} - Logo for sale{{/unless}}</title>
+
+  <meta name="description" content="{{description}}" />
+  {{! Twitter card }}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@metafizzyco" />
+  <meta name="twitter:title" content="{{title}}{{#unless isSold}} - Logo for sale{{/unless}}" />
+  <meta name="twitter:description" content="{{description}}" />
+  <meta name="twitter:image" content="http://logo.pizza/img/{{slug}}/card.png" />
+  {{! Facebook OpenGraph }}
+  <meta property="og:url" content="https://logo.pizza/{{slug}}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{title}}" />
+  <meta property="og:image" content="http://logo.pizza/img/{{slug}}/card.png" />
+  <meta property="og:site_name" content="Logo Pizza" />
+  <meta property="og:description" content="{{description}}" />
+
+{{> css-links}}
+
+</head>
+<body>
+
+<div class="content-wrap">
+
+  {{> site-header}}
+
+  <div class="logo-page">
+
+    <div class="duo">
+      <div class="duo__cell">
+        {{#if mainSVG}}
+          {{> asset-display-svg svg=mainSVG isMain="true" title=title}}
+        {{else}}
+          {{> asset-display mainAsset isMain="true" title=title}}
+        {{/if}}
+
+        {{#each variants}}
+          {{> asset-display}}
+        {{/each}}
+      </div>
+
+      <div class="duo__cell">
+        <h1 class="logo-page__title">{{title}}</h1>
+
+        <p class="logo-page__status {{#if isSold}}is-sold{{/if}}">
+          {{#if isSold}}Sold{{else}}Logo for sale{{/if}}
+          {{#if inUse}}
+            &middot;
+            <span="logo-page__in-use">In use at <a href="{{inUse.url}}">{{inUse.title}}</a></span>
+          {{/if}}
+        </p>
+
+        {{#if description}}
+          <div class="logo-page__description">
+            <p>{{ description }}</p>
+          </div>
+        {{/if}}
+
+        {{> custom-colors}}
+
+        {{#unless isSold}}
+          <a class="purchase-button" href="https://gumroad.com/l/logo-pizza-vol-2">Buy Logo ${{currentPrice}}</a>
+
+          <div class="purchase-text">
+            <p>Purchasing this logo you get:</p>
+            <ul>
+              <li>Production-ready asset files in vector AI, PDF, SVG, and raster PNG. Ready to be used in print, document, web, and video.</li>
+              <li>Exclusive rights to use the logo. No one else will be able to purchase or use the same logo.
+              View <a href="license">Logo Pizza Logo License Agreement</a>.
+              </li>
+              {{#ifOr variants customColors}}
+                <li>
+                  Variants: {{commaListVariants variants}}{{#if customColors}}{{#if variants}},{{/if}} custom colors{{/if}}.
+                </li>
+              {{/ifOr}}
+            </ul>
+          </div> {{! purchase-text }}
+        {{/unless}}
+
+
+      </div> {{! duo-cell }}
+    </div> {{! duo }}
+
+    {{#if isSold}}
+      {{> hire-me firstLine="Want a logo like this one, but different?"}}
+    {{/if}}
+
+    {{#if otherLogos}}
+      <div class="section">
+        <h2 class="section-title">Other {{otherTag}} logos</h2>
+        <ul class="thumbnails">
+          {{#each otherLogos}}
+            {{> thumbnail}}
+          {{/each}}
+        </ul>
+      </div>
+    {{/if}}
+
+    {{#if isSold}}
+      {{> signup}}
+    {{/if}}
+
+  </div> {{! .logo-page }}
+
+</div>
+
+{{> site-footer}}
+
+{{> html-foot}}

@@ -1,0 +1,27 @@
+/* duo
+------------------------- */
+
+.duo {
+}
+
+/* clearfix */
+.duo:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.duo__cell {
+  margin: 20px 10px;
+}
+
+@media screen and ( min-width: 768px ) {
+
+  .duo__cell {
+    float: left;
+    width: 40%;
+    width: calc( (100% - 60px) / 2 );
+  }
+  .duo__cell:nth-child(2n+1) { margin-right: 30px; }
+
+}

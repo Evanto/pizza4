@@ -1,0 +1,71 @@
+/* filter
+------------------------- */
+
+.for-sale__filter {
+  margin-top: 40px;
+}
+
+.for-sale__filter:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.for-sale__filter__title {
+  font-size: 1.4rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.for-sale__filter__group {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.for-sale__filter__button {
+  background: white;
+  border: 1px solid #E62;
+  color: #E62;
+  float: left;
+  font-family: inherit;
+  font-size: 1.05rem;
+  margin-bottom: 5px;
+  margin-right: -1px;
+  padding: 8px 15px;
+  border-radius: 0;
+  outline: none;
+}
+
+.for-sale__filter__button:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.for-sale__filter__button:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.for-sale__filter__button:hover {
+  border-color: #333;
+  color: #333;
+  cursor: pointer;
+}
+
+.for-sale__filter__button.is-selected {
+  background: #E62;
+  color: white;
+}
+
+
+@media screen and ( min-width: 768px ) {
+  .for-sale__filter__group--status {
+    width: 30%;
+  }
+
+  .for-sale__filter__group--tag {
+    width: 65%;
+    margin-right: 5%;
+  }
+
+}

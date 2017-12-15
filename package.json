@@ -1,0 +1,42 @@
+{
+  "name": "logo.pizza",
+  "version": "2.0.0",
+  "description": "Hot & ready logos for sale",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "logo",
+    "docs"
+  ],
+  "author": "Metafizzy",
+  "dependencies": {
+    "bower": "^1.8.2",
+    "cheerio": "^1.0.0-rc.2",
+    "connect": "^3.6.5",
+    "glob": "^7.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-filter": "^5.0.1",
+    "gulp-front-matter": "^1.3.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-yaml": "^1.0.1",
+    "handlebars": "^4.0.10",
+    "highlight.js": "^9.12.0",
+    "isotope-layout": "^3.0.4",
+    "js-yaml": "^3.10.0",
+    "jshint": "^2.9.5",
+    "serve-static": "^1.13.1",
+    "transfob": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5"
+  }
+}

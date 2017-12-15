@@ -1,0 +1,19 @@
+slug: deer-leap
+title: Deer leap
+description: Leaping deer composed from three bold lines, angled for action.
+
+tags: [ animal, body, one-color, thick-lines, moving ]
+otherTag: moving
+
+mainAsset:
+  imgSrc: deer-leap/deer-leap.png
+
+sprite: 1
+spriteRow: 2
+spriteCol: 2
+
+customColors:
+  -
+    title: Fill
+    color: '#333'
+    imgSrc: deer-leap/deer-leap.png

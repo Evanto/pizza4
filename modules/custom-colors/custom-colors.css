@@ -1,0 +1,81 @@
+/* custom-colors
+------------------------- */
+
+.custom-colors {
+  margin: 30px 0 40px;
+}
+
+.custom-colors__content {
+  border: 4px solid #DDD;
+  border-radius: 5px;
+  padding: 10px 10px 15px;
+}
+
+.custom-colors.is-dark .custom-colors__content {
+  background: #222;
+  border-color: #222;
+  color: white;
+}
+
+.custom-colors__title {
+  margin: 0 0 5px;
+}
+
+.custom-color {
+  height: 40px;
+  line-height: 40px;
+  max-width: 250px;
+}
+
+.custom-color:hover {
+  cursor: pointer;
+  color: #E62;
+}
+
+.custom-color__preview {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #CCC;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.custom-colors__bg-option {
+  margin-top: -4px;
+  z-index: 1;
+  position: relative;
+}
+
+.custom-bg-button {
+  display: inline-block;
+  height: 40px;
+  padding: 0 20px;
+  border: none;
+  font-family: Texta, sans-serif;
+  font-size: 1rem;
+  border-radius: 0 0 5px 5px;
+  border: 4px solid;
+  border-top: none;
+  cursor: pointer;
+}
+
+.custom-bg-button--light {
+  background: white;
+  color: #555;
+  border-color: #DDD;
+}
+
+.custom-bg-button--dark {
+  background: #222;
+  border-color: #222;
+  color: white;
+}
+
+.custom-bg-button:hover {
+  color: #6C6;
+}
+
+.custom-colors .huebee {
+  z-index: 2;
+}
